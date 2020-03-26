@@ -38,6 +38,7 @@ dependencies {
 
     implementation 'com.sjianjun:retrofit-converter:0.0.1'
     implementation 'com.sjianjun:charset-detector:0.0.1'
+    implementation 'com.sjianjun.ext:chardet:0.0.1'
     api 'com.sjianjun:okhttp-logging:0.0.1'
 }
 
