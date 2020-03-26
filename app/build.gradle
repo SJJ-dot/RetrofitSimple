@@ -42,7 +42,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
     implementation 'com.sjianjun:aLog:1.2.3'
-//    implementation project(":simple-http")
+//    implementation 'com.sjianjun:simple-http:0.0.1'
+    implementation project(":simple-http")
 
-    implementation 'com.github.SJJ-dot:RetrofitSimple:master-SNAPSHOT'
 }

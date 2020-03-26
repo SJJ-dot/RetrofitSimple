@@ -40,3 +40,5 @@ dependencies {
     implementation 'com.sjianjun:charset-detector:0.0.1'
     api 'com.sjianjun:okhttp-logging:0.0.1'
 }
+
+apply from: new File(rootDir,'publish.gradle')

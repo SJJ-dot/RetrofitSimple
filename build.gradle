@@ -18,10 +18,10 @@ buildscript {
 
 allprojects {
     repositories {
+        maven {url new File(rootDir,"repository").toURI()}
         google()
         jcenter()
         maven { url "https://raw.githubusercontent.com/SJJ-dot/repo/master/repository" }
-        maven { url 'https://jitpack.io' }
     }
 }
 
