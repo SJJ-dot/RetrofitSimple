@@ -1,0 +1,3 @@
+rootProject.name='RetrofitSimple'
+include ':app'
+include ':simple-http'
