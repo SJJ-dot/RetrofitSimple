@@ -16,9 +16,19 @@ buildscript {
     }
 }
 
+String localRepo() {
+    if (hasProperty("LOCAL_REPO")) {
+        return LOCAL_REPO
+    }
+    if (System.getenv("LOCAL_REPO") != null) {
+        return System.getenv("LOCAL_REPO")
+    }
+    return new File(rootDir, "repository").toURI().toString()
+}
+ext.localRepo = localRepo()
 allprojects {
     repositories {
-        maven {url new File(rootDir,"repository").toURI()}
+        maven {url localRepo}
         google()
         jcenter()
         maven { url "https://raw.githubusercontent.com/SJJ-dot/repo/master/repository" }
