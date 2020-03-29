@@ -16,7 +16,7 @@ allprojects {
 
 dependencies {
     //...
-    implementation 'com.sjianjun:simple-http:0.0.1'
+    implementation 'com.sjianjun:simple-http:0.0.2'
 
 }
 
