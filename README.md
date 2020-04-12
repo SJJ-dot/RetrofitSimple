@@ -1,4 +1,4 @@
-# RetrofitSimple [![Release](https://jitpack.io/v/SJJ-dot/RetrofitSimple.svg)](https://jitpack.io/#SJJ-dot/RetrofitSimple)
+# Simple-Http
 
 Simple http
 
@@ -8,14 +8,15 @@ allprojects {
     repositories {
         ...
         maven {
-            url "https://raw.githubusercontent.com/SJJ-dot/repo/master/repository"
+            url "https://raw.githubusercontent.com/SJJ-dot/repo/master"
+            //or url "https://gitee.com/SJJ-dot/repo/raw/master"
         }
     }
 }
 
 dependencies {
     //...
-    implementation 'com.sjianjun:simple-http:0.0.1'
+    implementation 'com.sjianjun:simple-http:0.0.2'
 
 }
 
