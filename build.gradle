@@ -28,11 +28,13 @@ String localRepo() {
 ext.localRepo = localRepo()
 allprojects {
     repositories {
-        maven {url localRepo}
+//        maven {url localRepo}
         google()
         jcenter()
         maven { url 'https://jitpack.io' }
-
+        maven {
+            url "https://raw.githubusercontent.com/SJJ-dot/repo/master/"
+        }
     }
 }
 

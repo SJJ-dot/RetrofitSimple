@@ -1,23 +1,20 @@
-# Simple-Http
+# Simple-Http [![](https://jitpack.io/v/SJJ-dot/Simple-Http.svg)](https://jitpack.io/#SJJ-dot/Simple-Http)
 
 Simple http
 
 
 ```groovy
-allprojects {
-    repositories {
-        ...
-        maven {
-            url "https://raw.githubusercontent.com/SJJ-dot/repo/master"
-            //or url "https://gitee.com/SJJ-dot/repo/raw/master"
-        }
-    }
-}
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+            maven {
+                url "https://raw.githubusercontent.com/SJJ-dot/repo/master/"
+            }
+		}
+	}
 
-dependencies {
-    //...
-    implementation 'com.sjianjun:simple-http:0.0.2'
-
-}
-
+	dependencies {
+        implementation 'com.github.SJJ-dot:Simple-Http:Tag'
+	}
 ```

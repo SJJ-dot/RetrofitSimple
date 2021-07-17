@@ -41,7 +41,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
     implementation 'com.github.SJJ-dot:ALOG:1.2.9'
-//    implementation 'com.sjianjun:simple-http:0.0.2'
-    implementation project(":simple-http")
+    implementation 'com.github.SJJ-dot:Simple-Http:0.0.2'
+//    implementation project(":simple-http")
 
 }
